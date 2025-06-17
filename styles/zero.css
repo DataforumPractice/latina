@@ -1,0 +1,32 @@
+body {
+    font-family: Accidental;
+    font-size: 36px;
+    color: #24235C;
+    font-weight: 500;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+    background: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.title {
+    font-size: 72px;
+}
+
+.text {
+    font-size: 20px;
+}

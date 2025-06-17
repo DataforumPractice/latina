@@ -1,0 +1,63 @@
+.background__effect {
+    background-image: url(../../img/main/effect.svg);
+    min-height: 100vh;
+    position: absolute;
+    z-index: 4;
+}
+
+
+.main__img.--back-title {
+    background-image: url(../../img/main/back-title.svg);
+    max-height: 450px;
+    aspect-ratio: 670/275;
+    flex: 0 0 calc(20% - 14px);
+    position: absolute;
+    top: 130px;
+    z-index: 1;
+}
+
+.main__img.--back-date {
+    background-image: url(../../img/main/back-date.svg);
+    max-height: 80px;
+    aspect-ratio: 200/32;
+    flex: 0 0 calc(20% - 14px);
+    position: absolute;
+    z-index: 2;
+    top: 400px;
+}
+
+.img{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.main__img.--hat{
+    background-image: url(../../img/main/hat.svg);
+    max-width: 180px;
+    aspect-ratio: 135/78;
+    flex: 0 0 auto;
+    position: absolute;
+    z-index: 3;
+    top: 150px;
+    left: calc(30% - 14px);
+}
+
+.main__img.--border{
+    background-image: url(../../img/main/border.svg);
+    width: 300%;
+    aspect-ratio: 1200/51;
+    position: absolute;
+    top: 100vh;
+    left: -100%
+}
+
+.main__img.--tape{
+    background-image: url(../../img/main/tape.svg);
+    aspect-ratio: 1232/45;
+    width: 110%;
+    position: absolute;
+    top: 105vh;
+    left: -50px;
+}
