@@ -1,29 +1,31 @@
 .background__effect {
     background-image: url(../../img/main/effect.svg);
     min-height: 100vh;
-    position: absolute;
     z-index: 4;
+    position: absolute;
 }
 
 
-.main__img.--back-title {
+.main__dec.--back-title {
     background-image: url(../../img/main/back-title.svg);
     max-height: 450px;
     aspect-ratio: 670/275;
     flex: 0 0 calc(20% - 14px);
-    position: absolute;
     top: 130px;
     z-index: 1;
 }
 
-.main__img.--back-date {
+.main__dec.--back-date {
     background-image: url(../../img/main/back-date.svg);
     max-height: 80px;
     aspect-ratio: 200/32;
     flex: 0 0 calc(20% - 14px);
-    position: absolute;
     z-index: 2;
     top: 400px;
+}
+
+.main__dec {
+    position: absolute;
 }
 
 .img{
@@ -33,31 +35,68 @@
     width: 100%;
 }
 
-.main__img.--hat{
+.main__dec.--hat {
     background-image: url(../../img/main/hat.svg);
     max-width: 180px;
     aspect-ratio: 135/78;
     flex: 0 0 auto;
-    position: absolute;
     z-index: 3;
     top: 150px;
     left: calc(30% - 14px);
 }
 
-.main__img.--border{
+.main__dec.--border {
     background-image: url(../../img/main/border.svg);
     width: 300%;
     aspect-ratio: 1200/51;
-    position: absolute;
     top: 100vh;
     left: -100%
 }
 
-.main__img.--tape{
+.main__dec.--tape {
     background-image: url(../../img/main/tape.svg);
     aspect-ratio: 1232/45;
     width: 110%;
-    position: absolute;
     top: 105vh;
     left: -50px;
+}
+
+.main__dec.--turtel {
+    background-image: url(../../img/main/turtel.svg);
+    aspect-ratio: 220/212;
+    width: 20vw;
+    top: 7vh;
+    left: -1vw;
+}
+
+.main__dec.--flower {
+    background-image: url(../../img/main/flower.svg);
+    aspect-ratio: 285/280;
+    width: 17vw;
+    right: 14vw;
+    top: 17vh;
+}
+
+.main__dec.--cactus {
+    background-image: url(../../img/main/cactus.svg);
+    aspect-ratio: 94/334;
+    width: 8vw;
+    top: 20vw;
+    left: 18vw;
+}
+
+.main__dec.--man{
+    background-image: url(../../img/main/man.png);
+    aspect-ratio: 528/468;
+    width: 38vw;
+    top: 18vw;
+    left: -5vw;
+}
+
+.main__dec.--woman{
+    background-image: url(../../img/main/woman.png);
+    aspect-ratio: 451/400;
+    width: 38vw;
+    right: -5vw;
+    top: 18vw;
 }
