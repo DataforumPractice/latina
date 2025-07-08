@@ -94,3 +94,32 @@
     right: -23vw;
     bottom: -5vh;
 }
+
+
+.prog__dec {
+    background-image: url(../../img/prog/border.svg);
+    width: 300%;
+    aspect-ratio: 1200/51;
+    position: absolute;
+
+    z-index: 0;
+}
+
+.--up {
+    top: -45px;
+}
+
+.--down {
+    bottom: -35px;
+}
+
+.info__dec{
+    background-image: url(../../img/info/info-border.svg);
+    position: absolute;
+    width: 300%;
+    aspect-ratio: 1200/51;
+    bottom: 5%;
+    left: -100%;
+    z-index: 0;
+    
+}

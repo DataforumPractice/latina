@@ -1,0 +1,87 @@
+.info{
+    padding-top: 80px;
+}
+
+.info__map{
+    background-image: url(../../img/info/map.png);
+    width: 60vw;
+    aspect-ratio: 804/478;
+}
+
+.--moscow{
+    background-image: url(../../img/info/moscow.png);
+    aspect-ratio: 189/71;
+}
+
+.--depar{
+    background-image: url(../../img/info/dep.png);
+    aspect-ratio: 231/62;
+}
+
+.--center{
+    background-image: url(../../img/info/center.png);
+    aspect-ratio: 220/69;
+}
+
+.info__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.info__title{
+    margin: 40px 0;
+    max-width: 624px;
+    text-align: center;
+}
+
+.text-block__title{
+    
+    font-size: 20px;
+}
+
+.text-block__text{
+    font-family: Manrope;
+    font-size: 14px;
+    
+}
+
+.info__text-block{
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    gap: 16px;
+}
+
+.text-block__row{
+    display: flex;
+    gap: 12px;
+}
+
+.partners__title{
+    font-size: 36px;
+    padding-bottom: 32px;
+    text-align: center;
+}
+
+.info__partners{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 90px;
+    gap: 48px;
+    z-index: 1;
+}
+
+.partners__img{
+    width: 15vw;
+}
+
+.partners__row{
+    gap: 96px;
+
+}
