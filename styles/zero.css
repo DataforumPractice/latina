@@ -16,7 +16,26 @@ body {
 button {
     cursor: pointer;
     background: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0;
+    font-size: 20px;
+    color: #EC297B;
+    font-family: Accidental;
+    background-image: url(../img/prog/btn-back.svg);
+    background-size: contain;
+    background-position:center;
+    background-repeat: no-repeat;
 }
+
+.img{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
 
 a {
     color: inherit;
@@ -25,8 +44,14 @@ a {
 
 .title {
     font-size: 72px;
+    
+    text-transform: uppercase;
 }
 
 .text {
     font-size: 20px;
+}
+
+.--red{
+    color: #EC1C24;
 }

@@ -1,6 +1,6 @@
 .main {
     background-color: #FFCA05;
-    min-height: calc(100vh - 71px);
+    min-height: calc(100vh - 111px);
     display: flex;
 
 
@@ -12,6 +12,7 @@
     text-align: center;
     align-items: center;
     text-transform: uppercase;
+    position: relative;
 }
 
 .main__text {

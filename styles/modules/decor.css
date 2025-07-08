@@ -11,7 +11,7 @@
     max-height: 450px;
     aspect-ratio: 670/275;
     flex: 0 0 calc(20% - 14px);
-    top: 130px;
+    top: 19px;
     z-index: 1;
 }
 
@@ -21,19 +21,14 @@
     aspect-ratio: 200/32;
     flex: 0 0 calc(20% - 14px);
     z-index: 2;
-    top: 400px;
+    top: 289px;
 }
 
 .main__dec {
     position: absolute;
 }
 
-.img{
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-}
+
 
 .main__dec.--hat {
     background-image: url(../../img/main/hat.svg);
@@ -41,15 +36,15 @@
     aspect-ratio: 135/78;
     flex: 0 0 auto;
     z-index: 3;
-    top: 150px;
-    left: calc(30% - 14px);
+    top: 3vh;
+    left: calc(30% - 150px);
 }
 
 .main__dec.--border {
     background-image: url(../../img/main/border.svg);
     width: 300%;
     aspect-ratio: 1200/51;
-    top: 100vh;
+    top: calc(100vh - 50px);
     left: -100%
 }
 
@@ -65,38 +60,37 @@
     background-image: url(../../img/main/turtel.svg);
     aspect-ratio: 220/212;
     width: 20vw;
-    top: 7vh;
-    left: -1vw;
+    left: -20vw;
 }
 
 .main__dec.--flower {
     background-image: url(../../img/main/flower.svg);
     aspect-ratio: 285/280;
     width: 17vw;
-    right: 14vw;
-    top: 17vh;
+    right: -6vw;
+    top: 7vh;
 }
 
 .main__dec.--cactus {
     background-image: url(../../img/main/cactus.svg);
     aspect-ratio: 94/334;
     width: 8vw;
-    top: 20vw;
-    left: 18vw;
+    bottom: -5vh;
+    left: 0%;
 }
 
 .main__dec.--man{
     background-image: url(../../img/main/man.png);
     aspect-ratio: 528/468;
     width: 38vw;
-    top: 18vw;
-    left: -5vw;
+    bottom: -5vh;
+    left: -23vw;
 }
 
 .main__dec.--woman{
     background-image: url(../../img/main/woman.png);
     aspect-ratio: 451/400;
     width: 38vw;
-    right: -5vw;
-    top: 18vw;
+    right: -23vw;
+    bottom: -5vh;
 }

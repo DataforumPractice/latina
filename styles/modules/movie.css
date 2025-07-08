@@ -1,0 +1,27 @@
+.movie__container{
+    
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.movie__title{
+    padding-top: 180px;
+    text-align: center;
+    max-width: 760px;
+    z-index: 2;
+    padding-bottom: 180px;
+}
+
+
+
+.movie{
+    min-height: 100vh;
+}
+
+.movie__video{
+    height: 100vh;
+    background-color: rgb(246, 182, 130);
+    width: 100%;
+    
+}
