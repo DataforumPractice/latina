@@ -40,7 +40,7 @@
 }
 
 .card__title {
-    font-size: 36px;
+    font-size: clamp(20px, 4vw, 36px);
     position: relative;
     top: 40%;
 

@@ -1,6 +1,6 @@
 body {
     font-family: Accidental;
-    font-size: 36px;
+    font-size: clamp(16px, 3vw, 36px); /* Автоматически масштабируется */
     color: #24235C;
     font-weight: 500;
 }
@@ -23,7 +23,7 @@ button {
     font-size: 20px;
     color: #EC297B;
     font-family: Accidental;
-    background-image: url(../img/prog/btn-back.svg);
+    background-image: url(../img/prog/btn.svg);
     background-size: contain;
     background-position:center;
     background-repeat: no-repeat;
@@ -37,21 +37,30 @@ button {
 }
 
 
+
+
 a {
     color: inherit;
     text-decoration: none;
 }
 
 .title {
-    font-size: 72px;
-    
+    font-size: clamp(32px, 7vw, 72px); /* Заголовки адаптивны */
     text-transform: uppercase;
 }
 
 .text {
-    font-size: 20px;
+    font-size: clamp(14px, 2vw, 20px); /* Обычный текст адаптивен */
 }
 
 .--red{
     color: #EC1C24;
+}
+
+.--uppercase{
+    text-transform: uppercase;
+}
+
+html {
+  scroll-behavior: smooth;
 }
