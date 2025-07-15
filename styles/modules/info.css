@@ -71,3 +71,7 @@
     gap: 96px;
 
 }
+
+.text-block__row{
+    gap: 12px;
+}

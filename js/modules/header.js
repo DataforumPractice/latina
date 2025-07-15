@@ -8,9 +8,26 @@ export function burgerMenuInit() {
         nav.classList.toggle('active');
     });
 
-    nav.querySelectorAll('a[href^="#"]').forEach(link => {
-        link.addEventListener('click', () => {
-            nav.classList.remove('active');
+    // Плавный скролл для всех ссылок-якорей
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+        link.addEventListener('click', function(e) {
+            const href = this.getAttribute('href');
+            if (href === "#") return; // Не обрабатываем пустой якорь
+
+            const targetId = href.slice(1);
+            const target = document.getElementById(targetId);
+            if (target) {
+                e.preventDefault();
+                // Получаем высоту header, если он фиксированный
+                const header = document.querySelector('.header');
+                const headerHeight = header ? header.offsetHeight : 0;
+                const elementPosition = target.getBoundingClientRect().top + window.pageYOffset - headerHeight;
+                window.scrollTo({ top: elementPosition, behavior: 'smooth' });
+            }
+            // Закрываем меню только на мобильной версии
+            if (window.innerWidth <= 900) {
+                nav.classList.remove('active');
+            }
         });
     });
 

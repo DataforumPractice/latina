@@ -1,8 +1,12 @@
 .background__effect {
     background-image: url(../../img/main/effect.svg);
-    min-height: 100vh;
+    min-height: calc(100vh - 111px);
     z-index: 4;
     position: absolute;
+    pointer-events: none;
+     @media (max-width: 900px) {
+        min-height: calc(100vh - 40px);
+    }
 }
 
 
@@ -13,6 +17,11 @@
     flex: 0 0 calc(20% - 14px);
     top: 19px;
     z-index: 1;
+
+    @media (max-width: 1600px) {
+        width: 75vw;
+        height: 50vh;
+    }
 }
 
 .main__dec.--back-date {
@@ -22,6 +31,11 @@
     flex: 0 0 calc(20% - 14px);
     z-index: 2;
     top: 289px;
+
+    @media (max-width: 1600px) {
+        top: 36vh;
+        width: 40vw;
+    }
 }
 
 .main__dec {
@@ -53,12 +67,10 @@
     @media (max-width: 900px) {
         left: -50px;
         width: 1200px;
+        top: calc(100vh - 30px);
     }
 
-    @media (max-width: 600px) {
-        left: -50px;
-        width: 1200px;
-    }
+   
 }
 
 .main__dec.--tape {
@@ -67,6 +79,10 @@
     width: 110%;
     top: 105vh;
     left: -50px;
+
+    @media (max-width: 900px) {
+        left: -10px;
+    }
 }
 
 .main__dec.--turtel {
@@ -75,9 +91,9 @@
     width: 20vw;
     left: -20vw;
 
-    @media (max-width: 1440px) {
-        width: 170px;
-        left: -10vw;
+     @media (max-width: 1600px) {
+        width: 15vw;
+        left: -5vw;
     }
 
     @media (max-width: 600px) {
