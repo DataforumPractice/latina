@@ -12,6 +12,11 @@
 .footer__row {
     display: flex;
     justify-content: space-between;
+    @media (max-width: 900px) {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
 }
 
 .footer__title {
@@ -23,6 +28,9 @@
     display: flex;
     flex-direction: column;
     width: 40%;
+    @media (max-width: 900px) {
+    width: 100%;
+    }
 }
 
 .--link {
@@ -52,4 +60,8 @@
     background-size: contain;
     display: block;
     position: relative;
+}
+
+.--centertxt{
+    text-align: center;
 }
