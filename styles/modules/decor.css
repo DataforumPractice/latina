@@ -21,13 +21,15 @@
 
     @media (max-width: 1600px) {
         width: 75vw;
-        height: 50vh;
     }
 
     @media (max-width: 900px) {
-        transform: rotate(90deg);
-        aspect-ratio: 302/266;
-        background-size:cover;
+    background-image: url(../../img/main/back-title-mob.svg);
+        aspect-ratio: 302/333;
+        width: 85vw;
+        flex: none;
+        top: 60px;
+        max-height: none;
     }
 
 }
@@ -35,7 +37,7 @@
 .main__dec.--back-date {
     background-image: url(../../img/main/back-date.svg);
     max-height: 80px;
-    aspect-ratio: 200/32;
+    aspect-ratio: 240/77;
     flex: 0 0 calc(20% - 14px);
     z-index: 2;
     top: 289px;
@@ -44,6 +46,20 @@
         top: 36vh;
         width: 40vw;
     }
+    @media (max-width: 900px) {
+        top: 30vh;
+        width: 50vw;
+        max-height: none;
+        padding-top: 50px;
+    }
+    @media (max-width: 600px) {
+        padding-top: 25px;
+    }
+
+    @media (max-width: 380px){
+        top: 35vh;
+    }
+
 }
 
 .main__dec {
@@ -65,6 +81,12 @@
         width: 144px;
         top: 5vh;
         left: 17vw;
+    }
+
+    @media (max-width: 900px) {
+        width: 100px;
+        top: 10vh;
+        left: 15vw;
     }
 }
 
@@ -116,6 +138,8 @@
     @media (max-width: 600px) {
         width: 130px;
         left: -5vw;
+        top: -2vh;
+        z-index: 0;
     }
 }
 
@@ -131,6 +155,13 @@
         right: -2vw;
         top: 1vh;
     }
+    
+    @media (max-width: 900px) {
+        transform: scaleX(-1);
+        width: 30vw;
+        right: -10vw;
+        bottom: -5vh;
+    }
 }
 
 .main__dec.--cactus {
@@ -144,6 +175,10 @@
         width: 8vw;
         bottom: -5vh;
         left: 18vw;
+    }
+
+    @media (max-width: 900px) {
+      display: none;
     }
 }
 
@@ -161,6 +196,16 @@
         bottom: -5vh;
         left: -12vw;
     }
+
+    @media (max-width: 900px) {
+        height: 60vh;
+        left: -25vw;
+    }
+
+    @media (max-width: 600px) {
+        height: 55vh;
+        left: -30vw;
+    }
 }
 
 .main__dec.--woman {
@@ -176,6 +221,10 @@
         width: auto;
         right: -10vw;
         bottom: -5vh;
+    }
+
+    @media (max-width: 900px) {
+      display: none;
     }
 
 }
